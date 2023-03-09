@@ -183,7 +183,6 @@ main .container {
 
 /* effetto scorrimento verticale */
 .card5 img {
-	position: relative;
 	transition: all 2s;
 }
 
@@ -198,7 +197,6 @@ main .container {
 
 .card6 img {
 	flex-shrink: 0;
-	position: relative;
 	transition: all 2s;
 }
 
