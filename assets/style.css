@@ -144,66 +144,66 @@ main .container {
 	z-index: -1;
 }
 
-/* effetto con opacity */
-.card2 img {
-	transition: all 2s;
-}
-
+/* effetto con visibility */
 .card2 .img-front {
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
-.card2 .img-front:hover {
+.card2 .image-container:hover .img-front {
+	visibility: hidden;
+}
+
+/* effetto con display */
+.card3 .img-front {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.card3 .image-container:hover .img-front {
+	display: none;
+}
+
+/* effetto con opacity */
+.card4 img {
+	transition: all 2s;
+}
+
+.card4 .img-front {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.card4 .img-front:hover {
 	opacity: 0;
 }
 
 /* effetto scorrimento verticale */
-.card3 img {
+.card5 img {
 	position: relative;
 	transition: all 2s;
 }
 
-.card3 .image-container:hover img {
+.card5 .image-container:hover img {
 	transform: translateY(-100%);
 }
 
 /* effetto scorrimento orizzontale */
-.card4 .image-container {
+.card6 .image-container {
 	display: flex;
 }
 
-.card4 img {
+.card6 img {
 	flex-shrink: 0;
 	position: relative;
 	transition: all 2s;
 }
 
-.card4 .image-container:hover img {
+.card6 .image-container:hover img {
 	transform: translateX(-100%);
-}
-
-/* effetto con visibility */
-.card5 .img-front {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.card5 .image-container:hover .img-front {
-	visibility: hidden;
-}
-
-/* effetto con display */
-.card6 .img-front {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.card6 .image-container:hover .img-front {
-	display: none;
 }
 
 /* FINE EFFETTI */
